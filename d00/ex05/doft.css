@@ -1,0 +1,226 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   doft.css                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: doyang <doyang@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/03/25 14:40:29 by doyang            #+#    #+#             */
+/*   Updated: 2019/03/26 13:35:56 by doyang           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+body {
+	background-color: #505050;
+}
+
+.gov {
+	text-align: center;
+	line-height: 557.5px;
+	font-weight: bold;
+	font-size: 50px;
+	color: white;
+}
+
+.desc {
+	text-align: center;
+	font-family: arial;
+	line-height: 5px;
+	font-size: 16px;
+	color: white;
+}
+
+.headtitle {
+	background-color: #909090;
+	position: relative;
+	width: 1400px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	box-shadow: 10px 10px 8px 3px
+}
+
+.mainicon {
+	width: 500px;
+	border-radius: 10px;
+}
+
+.column {
+	float: left;
+}
+
+.left, .right{
+	width: 130px;
+	height: 460px;
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 10px 10px 8px 3px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.middle {
+	width: 1020px;
+	position: relative;
+}
+
+#gameover {
+	display: block;
+	width: 1000px;
+	height: 582.5px;
+	background-color: black;
+	border: 10px solid #909090;
+	border-radius: 10px;
+	box-shadow: 10px 10px 8px 3px;
+}
+
+.iconsize {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 80px;
+}
+
+#redborder {
+	border: 5px solid red;
+	border-radius: 8px;
+}
+
+.midimg {
+	display: block;
+	width: 1000px;
+	border: 10px solid #909090;
+	border-radius: 10px;
+	box-shadow: 10px 10px 8px 3px;
+}
+
+.brick {
+	margin: auto;
+	background-image: url("resources/brick.jpg");
+	background-repeat: repeat;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 120px;
+	height: 64px;
+}
+
+.row{
+	width: 1360px;
+	margin: 0 auto;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+ul {
+	padding: 0px;
+}
+
+ol {
+	padding: 0px;
+}
+
+.smallbtncl {
+	position: absolute;
+	width: 20px;
+	bottom: 10px;
+	right: 10px;
+}
+.smallbtnrf {
+	position: absolute;
+	width: 20px;
+	top: 10px;
+	right: 10px;
+}
+
+.magnif {
+	position: absolute;
+	right: 50px;
+	top: 5px;
+}
+
+.adlinkik {
+	position: absolute;
+	left: 340px;
+	bottom: 35px;
+	width: 130px;
+	height: 215px;
+}
+
+.adlinkap {
+	position: absolute;
+	right: 15px;
+	bottom: 85px;
+	width: 185px;
+	height: 180px;
+}
+
+.womanevent {
+	position: absolute;
+	left: 20px;
+	top: 260px;
+	width: 60px;
+	height: 210px;
+}
+
+.manevent {
+	position: absolute;
+	right: 490px;
+	top: 250px;
+	width: 60px;
+	height: 210px;
+}
+
+.popup {
+	position: absolute;
+	width: 480px;
+	height: 130px;
+	background-color: #88ff89;
+	border-radius: 10px;
+	left: -220px;
+	bottom: -70px;
+	box-shadow: 10px 10px 8px 3px;
+	font-family: Arial;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.big {
+	font-size: 31px;
+	font-family: 'Times New Roman'
+}
+
+.small {
+	font-size: 15px;
+	font-style: italic;
+	color: gray;
+}
+
+.shadow {
+	text-shadow: 3px 4px 2px rgb(255, 46, 46);
+}
+
+.italic {
+	font-style: italic;
+}
+
+.popup form {
+	height: 22px;
+}
+
+.popup form button {
+    border: 1px solid #a8a4a5;
+    border-radius: 1px;
+    background-color: #f4eff3;
+    margin-left: 4px;
+    height: 20px;
+    font-size:12px;
+    letter-spacing: 1px;
+}
